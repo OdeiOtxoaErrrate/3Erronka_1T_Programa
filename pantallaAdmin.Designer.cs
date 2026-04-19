@@ -419,6 +419,7 @@
             button4.TabIndex = 102;
             button4.Text = "Langileak ikusi";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button3
             // 

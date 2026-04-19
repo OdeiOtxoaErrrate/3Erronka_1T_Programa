@@ -29,5 +29,12 @@ namespace erronka3_1T
 
             dataGridView1.DataSource = tabla;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            DataTable tabla = langileBurua.langileak_ikusi();
+
+            dataGridView1.DataSource = tabla;
+        }
     }
 }
