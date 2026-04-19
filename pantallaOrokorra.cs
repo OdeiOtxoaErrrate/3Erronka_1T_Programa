@@ -22,5 +22,12 @@ namespace erronka3_1T
 
             zita_id.Clear();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DataTable tabla = langileOrokorra.zitak_ikusi();
+
+            dataGridView1.DataSource = tabla;
+        }
     }
 }
