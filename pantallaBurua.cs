@@ -1,4 +1,5 @@
-﻿using System;
+﻿using erronka;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,13 @@ namespace erronka3_1T
         public pantallaBurua()
         {
             InitializeComponent();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            DataTable tabla = langileOrokorra.zitak_ikusi();
+
+            dataGridView1.DataSource = tabla;
         }
     }
 }

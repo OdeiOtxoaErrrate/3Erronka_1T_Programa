@@ -81,6 +81,7 @@
             button5.TabIndex = 103;
             button5.Text = "Zitak ikusi";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // groupBox1
             // 
