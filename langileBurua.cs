@@ -69,6 +69,53 @@ namespace erronka3_1T
 
         }
 
+        public static DataTable langileak_ikusi()
+
+        {
+
+            string connectionString = "Server=192.168.115.167;Database=hirugarrenerronka;Uid=erronka3;Pwd=1MG32025;";
+
+
+            string query = "SELECT * FROM langileak";
+
+
+            using (MySqlConnection conexion = new MySqlConnection(connectionString))
+
+            {
+
+                try
+                {
+
+                    conexion.Open();
+
+
+                    MySqlDataAdapter adaptador = new MySqlDataAdapter(query, conexion);
+
+
+                    DataTable tabla = new DataTable();
+
+
+                    adaptador.Fill(tabla);
+
+
+                    return tabla;
+
+
+                }
+
+                catch (Exception ex)
+
+                {
+
+                    MessageBox.Show("Error al cargar las citas: " + ex.Message);
+
+                    return null;
+
+                }
+
+            }
+
+        }
 
     }
 
