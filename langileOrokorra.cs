@@ -6,7 +6,7 @@ using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 using System.Data;
 using System.Net;
-namespace erronka
+namespace erronka3_1T
 {
     internal class langileOrokorra
     {
