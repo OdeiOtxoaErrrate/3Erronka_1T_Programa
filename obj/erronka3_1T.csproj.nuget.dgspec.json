@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ander\\OneDrive - Goierri Eskola\\Escritorio\\goierri\\erronka3\\erronka3_1T\\erronka3_1T\\erronka3_1T.csproj": {}
+    "C:\\xampp\\htdocs\\Erronka1T_programa\\erronka3_1T.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ander\\OneDrive - Goierri Eskola\\Escritorio\\goierri\\erronka3\\erronka3_1T\\erronka3_1T\\erronka3_1T.csproj": {
+    "C:\\xampp\\htdocs\\Erronka1T_programa\\erronka3_1T.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ander\\OneDrive - Goierri Eskola\\Escritorio\\goierri\\erronka3\\erronka3_1T\\erronka3_1T\\erronka3_1T.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\Erronka1T_programa\\erronka3_1T.csproj",
         "projectName": "erronka3_1T",
-        "projectPath": "C:\\Users\\Ander\\OneDrive - Goierri Eskola\\Escritorio\\goierri\\erronka3\\erronka3_1T\\erronka3_1T\\erronka3_1T.csproj",
-        "packagesPath": "C:\\Users\\Ander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ander\\OneDrive - Goierri Eskola\\Escritorio\\goierri\\erronka3\\erronka3_1T\\erronka3_1T\\obj\\",
+        "projectPath": "C:\\xampp\\htdocs\\Erronka1T_programa\\erronka3_1T.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\Erronka1T_programa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +25,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net10.0-windows7.0": {
+          "net10.0-windows": {
+            "framework": "net10.0-windows7.0",
             "targetAlias": "net10.0-windows",
             "projectReferences": {}
           }
@@ -43,12 +44,21 @@
         "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
-        "net10.0-windows7.0": {
+        "net10.0-windows": {
+          "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "dependencies": {
+            "FluentFTP": {
+              "target": "Package",
+              "version": "[54.1.1, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[9.6.0, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2026.2.4, )"
             }
           },
           "imports": [
@@ -70,7 +80,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
