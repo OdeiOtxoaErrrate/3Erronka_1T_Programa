@@ -164,6 +164,7 @@
             button3.TabIndex = 100;
             button3.Text = "Bezeroak ikusi";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // b_ezab_btn
             // 

@@ -14,5 +14,12 @@ namespace erronka3_1T
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DataTable tabla = langileBurua.bezeroak_ikusi();
+
+            dataGridView1.DataSource = tabla;
+        }
     }
 }

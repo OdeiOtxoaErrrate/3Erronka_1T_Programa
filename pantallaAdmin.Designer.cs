@@ -428,6 +428,7 @@
             button3.TabIndex = 101;
             button3.Text = "Bezeroak ikusi";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
