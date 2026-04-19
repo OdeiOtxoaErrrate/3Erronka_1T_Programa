@@ -76,6 +76,7 @@
             button3.TabIndex = 27;
             button3.Text = "Sartu";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // login
             // 
