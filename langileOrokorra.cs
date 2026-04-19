@@ -32,6 +32,35 @@ namespace erronka
         }
 
 
+        public static DataTable zitak_ikusi()
+        {
+            string connectionString = "Server=192.168.115.167;Database=hirugarrenerronka;Uid=erronka3;Pwd=1MG32025;";
+
+            string query = "SELECT * FROM zitak";
+
+            using (MySqlConnection conexion = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conexion.Open();
+
+                    MySqlDataAdapter adaptador = new MySqlDataAdapter(query, conexion);
+
+                    DataTable tabla = new DataTable();
+
+                    adaptador.Fill(tabla);
+
+                    return tabla;
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al cargar las citas: " + ex.Message);
+                    return null;
+                }
+            }
+        }
+
         public static void zita_eguneratu(string id)
         {
             string connectionString = "Server=192.168.115.167;Database=hirugarrenerronka;Uid=erronka3;Pwd=1MG32025;";
