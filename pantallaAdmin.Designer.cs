@@ -275,6 +275,7 @@
             button5.TabIndex = 75;
             button5.Text = "Gehitu langilea";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // l_postua
             // 

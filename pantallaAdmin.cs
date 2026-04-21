@@ -77,5 +77,27 @@ namespace erronka3_1T
             b_pasahitza.Clear();
             b_suskripzioa.Clear();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string izena = l_izena.Text;
+            string abizena = l_abizena.Text;
+            string pasahitza = l_pasahitza.Text;
+            string email = l_email.Text;
+            string postua = l_postua.Text;
+            string telefonoa = l_telefonoa.Text;
+            string helbidea = l_helbidea.Text;
+            string erabiltzailea = l_erabiltzailea.Text;
+
+            admin.langileak_gehitu(izena, abizena, pasahitza, email, postua, telefonoa, helbidea, erabiltzailea);
+            l_izena.Clear();
+            l_abizena.Clear();
+            l_pasahitza.Clear();
+            l_email.Clear();
+            l_postua.Clear();
+            l_telefonoa.Clear();
+            l_helbidea.Clear();
+            l_erabiltzailea.Clear();
+        }
     }
 }
