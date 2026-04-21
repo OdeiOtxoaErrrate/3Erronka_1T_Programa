@@ -66,5 +66,35 @@ namespace erronka3_1T
 
             textBox18.Clear();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string izena = textBox1.Text; 
+            string abizena = textBox2.Text; 
+            string email = textBox4.Text; 
+            string NAN = textBox5.Text; 
+            string telefonoa = textBox6.Text; 
+            string helbidea = textBox7.Text; 
+            string pasahitza = textBox3.Text; 
+            string suskripzioa = textBox8.Text;
+
+            langileBurua.bezeroak_gehitu(izena, abizena, pasahitza, email, NAN, telefonoa, helbidea, suskripzioa);
+
+            textBox1.Clear();
+
+            textBox2.Clear();
+
+            textBox3.Clear();
+
+            textBox4.Clear();
+
+            textBox5.Clear();
+
+            textBox6.Clear();
+
+            textBox7.Clear();
+
+            textBox8.Clear();
+        }
     }
 }

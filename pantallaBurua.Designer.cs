@@ -216,6 +216,7 @@
             button1.TabIndex = 96;
             button1.Text = "Gehitu bezeroa";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // textBox8
             // 
