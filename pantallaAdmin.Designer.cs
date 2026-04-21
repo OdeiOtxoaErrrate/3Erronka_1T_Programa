@@ -116,6 +116,7 @@
             button10.TabIndex = 113;
             button10.Text = "Hornitzaile eta langilearen erlazioak ikusi";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
             // 
             // button9
             // 

@@ -49,5 +49,11 @@ namespace erronka3_1T
             DataTable tabla = langileOrokorra.zitak_ikusi();
             dataGridView1.DataSource = tabla;
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            DataTable tabla = langileBurua.hornitzaile_eta_langilearen_erlazioak_ikusi();
+            dataGridView1.DataSource = tabla;
+        }
     }
 }
