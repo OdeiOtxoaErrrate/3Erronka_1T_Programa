@@ -99,5 +99,16 @@ namespace erronka3_1T
             l_helbidea.Clear();
             l_erabiltzailea.Clear();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            string id = textBox21.Text;
+            string eremua = checkedListBoxLangile.Text;
+            string datuBerria = textBox19.Text;
+
+            admin.langile_datua_aldatu(id, eremua, datuBerria);
+            textBox21.Clear();
+            textBox19.Clear();
+        }
     }
 }
