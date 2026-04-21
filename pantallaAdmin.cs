@@ -36,5 +36,12 @@ namespace erronka3_1T
 
             textBox10.Clear();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string id = textBox9.Text;
+            langileBurua.bezeroak_ezabatu(id);
+            textBox9.Clear();
+        }
     }
 }
