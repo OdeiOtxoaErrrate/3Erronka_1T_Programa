@@ -110,5 +110,16 @@ namespace erronka3_1T
             textBox21.Clear();
             textBox19.Clear();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            string id = textBox20.Text;
+            string eremua = checkedListBoxBezero.Text;
+            string datuBerria = textBox18.Text;
+
+            langileBurua.bezero_datua_aldatu(id, eremua, datuBerria);
+            textBox20.Clear();
+            textBox18.Clear();
+        }
     }
 }

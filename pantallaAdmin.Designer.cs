@@ -201,6 +201,7 @@
             button7.TabIndex = 110;
             button7.Text = "Aldatu";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // textBox18
             // 
