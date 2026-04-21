@@ -66,18 +66,21 @@
             // 
             // button10
             // 
-            button10.Location = new Point(163, 328);
+            button10.Location = new Point(143, 246);
+            button10.Margin = new Padding(3, 2, 3, 2);
             button10.Name = "button10";
-            button10.Size = new Size(293, 29);
+            button10.Size = new Size(256, 22);
             button10.TabIndex = 104;
             button10.Text = "Hornitzaile eta langilearen erlazioak ikusi";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
             // 
             // button5
             // 
-            button5.Location = new Point(459, 328);
+            button5.Location = new Point(402, 246);
+            button5.Margin = new Padding(3, 2, 3, 2);
             button5.Name = "button5";
-            button5.Size = new Size(106, 29);
+            button5.Size = new Size(93, 22);
             button5.TabIndex = 103;
             button5.Text = "Zitak ikusi";
             button5.UseVisualStyleBackColor = true;
@@ -91,42 +94,47 @@
             groupBox1.Controls.Add(button7);
             groupBox1.Controls.Add(label18);
             groupBox1.Controls.Add(textBox18);
-            groupBox1.Location = new Point(20, 369);
+            groupBox1.Location = new Point(18, 277);
+            groupBox1.Margin = new Padding(3, 2, 3, 2);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(519, 195);
+            groupBox1.Padding = new Padding(3, 2, 3, 2);
+            groupBox1.Size = new Size(454, 146);
             groupBox1.TabIndex = 102;
             groupBox1.TabStop = false;
             // 
             // textBox9
             // 
-            textBox9.Location = new Point(296, 61);
+            textBox9.Location = new Point(259, 46);
+            textBox9.Margin = new Padding(3, 2, 3, 2);
             textBox9.Name = "textBox9";
-            textBox9.Size = new Size(125, 27);
+            textBox9.Size = new Size(110, 23);
             textBox9.TabIndex = 80;
             // 
             // izena
             // 
             izena.FormattingEnabled = true;
             izena.Items.AddRange(new object[] { "izena", "abizena", "pasahitza", "email", "NAN", "telefonoa", "helbidea", "suskripzioa" });
-            izena.Location = new Point(88, 29);
+            izena.Location = new Point(77, 22);
+            izena.Margin = new Padding(3, 2, 3, 2);
             izena.Name = "izena";
-            izena.Size = new Size(177, 158);
+            izena.Size = new Size(155, 112);
             izena.TabIndex = 74;
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(317, 38);
+            label10.Location = new Point(277, 28);
             label10.Name = "label10";
-            label10.Size = new Size(75, 20);
+            label10.Size = new Size(58, 15);
             label10.TabIndex = 79;
             label10.Text = "Bezero id:";
             // 
             // button7
             // 
-            button7.Location = new Point(284, 142);
+            button7.Location = new Point(248, 106);
+            button7.Margin = new Padding(3, 2, 3, 2);
             button7.Name = "button7";
-            button7.Size = new Size(147, 29);
+            button7.Size = new Size(129, 22);
             button7.TabIndex = 77;
             button7.Text = "Aldatu";
             button7.UseVisualStyleBackColor = true;
@@ -134,24 +142,26 @@
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(275, 88);
+            label18.Location = new Point(241, 66);
             label18.Name = "label18";
-            label18.Size = new Size(164, 20);
+            label18.Size = new Size(128, 15);
             label18.TabIndex = 75;
             label18.Text = "Bezeroaren datu berria:";
             // 
             // textBox18
             // 
-            textBox18.Location = new Point(296, 110);
+            textBox18.Location = new Point(259, 82);
+            textBox18.Margin = new Padding(3, 2, 3, 2);
             textBox18.Name = "textBox18";
-            textBox18.Size = new Size(125, 27);
+            textBox18.Size = new Size(110, 23);
             textBox18.TabIndex = 76;
             // 
             // button4
             // 
-            button4.Location = new Point(401, 294);
+            button4.Location = new Point(351, 220);
+            button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
-            button4.Size = new Size(164, 29);
+            button4.Size = new Size(144, 22);
             button4.TabIndex = 101;
             button4.Text = "Langileak ikusi";
             button4.UseVisualStyleBackColor = true;
@@ -159,9 +169,10 @@
             // 
             // button3
             // 
-            button3.Location = new Point(213, 293);
+            button3.Location = new Point(186, 220);
+            button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
-            button3.Size = new Size(178, 29);
+            button3.Size = new Size(156, 22);
             button3.TabIndex = 100;
             button3.Text = "Bezeroak ikusi";
             button3.UseVisualStyleBackColor = true;
@@ -169,180 +180,192 @@
             // 
             // b_ezab_btn
             // 
-            b_ezab_btn.Location = new Point(10, 326);
+            b_ezab_btn.Location = new Point(9, 244);
+            b_ezab_btn.Margin = new Padding(3, 2, 3, 2);
             b_ezab_btn.Name = "b_ezab_btn";
-            b_ezab_btn.Size = new Size(147, 29);
+            b_ezab_btn.Size = new Size(129, 22);
             b_ezab_btn.TabIndex = 99;
             b_ezab_btn.Text = "Bezeroa ezabatu";
             b_ezab_btn.UseVisualStyleBackColor = true;
             // 
             // bezero_id
             // 
-            bezero_id.Location = new Point(79, 293);
+            bezero_id.Location = new Point(69, 220);
+            bezero_id.Margin = new Padding(3, 2, 3, 2);
             bezero_id.Name = "bezero_id";
-            bezero_id.Size = new Size(125, 27);
+            bezero_id.Size = new Size(110, 23);
             bezero_id.TabIndex = 98;
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(7, 296);
+            label9.Location = new Point(6, 222);
             label9.Name = "label9";
-            label9.Size = new Size(75, 20);
+            label9.Size = new Size(58, 15);
             label9.TabIndex = 97;
             label9.Text = "Bezero id:";
             // 
             // button1
             // 
-            button1.Location = new Point(638, 536);
+            button1.Location = new Point(558, 402);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(147, 29);
+            button1.Size = new Size(129, 22);
             button1.TabIndex = 96;
             button1.Text = "Gehitu bezeroa";
             button1.UseVisualStyleBackColor = true;
             // 
             // textBox8
             // 
-            textBox8.Location = new Point(724, 503);
+            textBox8.Location = new Point(634, 377);
+            textBox8.Margin = new Padding(3, 2, 3, 2);
             textBox8.Name = "textBox8";
-            textBox8.Size = new Size(125, 27);
+            textBox8.Size = new Size(110, 23);
             textBox8.TabIndex = 95;
             // 
             // textBox7
             // 
-            textBox7.Location = new Point(724, 473);
+            textBox7.Location = new Point(634, 355);
+            textBox7.Margin = new Padding(3, 2, 3, 2);
             textBox7.Name = "textBox7";
-            textBox7.Size = new Size(125, 27);
+            textBox7.Size = new Size(110, 23);
             textBox7.TabIndex = 94;
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(724, 443);
+            textBox6.Location = new Point(634, 332);
+            textBox6.Margin = new Padding(3, 2, 3, 2);
             textBox6.Name = "textBox6";
-            textBox6.Size = new Size(125, 27);
+            textBox6.Size = new Size(110, 23);
             textBox6.TabIndex = 93;
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(724, 413);
+            textBox5.Location = new Point(634, 310);
+            textBox5.Margin = new Padding(3, 2, 3, 2);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(125, 27);
+            textBox5.Size = new Size(110, 23);
             textBox5.TabIndex = 92;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(724, 383);
+            textBox4.Location = new Point(634, 287);
+            textBox4.Margin = new Padding(3, 2, 3, 2);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(125, 27);
+            textBox4.Size = new Size(110, 23);
             textBox4.TabIndex = 91;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(724, 354);
+            textBox3.Location = new Point(634, 266);
+            textBox3.Margin = new Padding(3, 2, 3, 2);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(125, 27);
+            textBox3.Size = new Size(110, 23);
             textBox3.TabIndex = 90;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(724, 325);
+            textBox2.Location = new Point(634, 244);
+            textBox2.Margin = new Padding(3, 2, 3, 2);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
+            textBox2.Size = new Size(110, 23);
             textBox2.TabIndex = 89;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(724, 295);
+            textBox1.Location = new Point(634, 221);
+            textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
+            textBox1.Size = new Size(110, 23);
             textBox1.TabIndex = 88;
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(573, 506);
+            label8.Location = new Point(501, 380);
             label8.Name = "label8";
-            label8.Size = new Size(135, 20);
+            label8.Size = new Size(106, 15);
             label8.TabIndex = 87;
             label8.Text = "Bezero suskripzioa:";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(572, 479);
+            label7.Location = new Point(500, 359);
             label7.Name = "label7";
-            label7.Size = new Size(120, 20);
+            label7.Size = new Size(93, 15);
             label7.TabIndex = 86;
             label7.Text = "Bezero helbidea:";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(572, 447);
+            label6.Location = new Point(500, 335);
             label6.Name = "label6";
-            label6.Size = new Size(126, 20);
+            label6.Size = new Size(98, 15);
             label6.TabIndex = 85;
             label6.Text = "Bezero telefonoa:";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(571, 415);
+            label5.Location = new Point(500, 311);
             label5.Name = "label5";
-            label5.Size = new Size(94, 20);
+            label5.Size = new Size(74, 15);
             label5.TabIndex = 84;
             label5.Text = "Bezero NAN:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(571, 384);
+            label4.Location = new Point(500, 288);
             label4.Name = "label4";
-            label4.Size = new Size(99, 20);
+            label4.Size = new Size(77, 15);
             label4.TabIndex = 83;
             label4.Text = "Bezero email:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(571, 354);
+            label3.Location = new Point(500, 266);
             label3.Name = "label3";
-            label3.Size = new Size(125, 20);
+            label3.Size = new Size(97, 15);
             label3.TabIndex = 82;
             label3.Text = "Bezero pasahitza:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(571, 328);
+            label2.Location = new Point(500, 246);
             label2.Name = "label2";
-            label2.Size = new Size(114, 20);
+            label2.Size = new Size(88, 15);
             label2.TabIndex = 81;
             label2.Text = "Bezero abizena:";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(571, 302);
+            label1.Location = new Point(500, 226);
             label1.Name = "label1";
-            label1.Size = new Size(97, 20);
+            label1.Size = new Size(75, 15);
             label1.TabIndex = 80;
             label1.Text = "Bezero izena:";
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(16, 8);
+            dataGridView1.Location = new Point(14, 6);
+            dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(863, 275);
+            dataGridView1.Size = new Size(755, 206);
             dataGridView1.TabIndex = 79;
             // 
             // pantallaBurua
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(887, 572);
+            ClientSize = new Size(776, 429);
             Controls.Add(button10);
             Controls.Add(button5);
             Controls.Add(groupBox1);
@@ -369,6 +392,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(dataGridView1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "pantallaBurua";
             Text = "pantallaBurua";
             groupBox1.ResumeLayout(false);
