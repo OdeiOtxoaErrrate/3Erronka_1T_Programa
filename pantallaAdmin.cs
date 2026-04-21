@@ -1,4 +1,5 @@
-﻿using System;
+﻿using erronka3_iT;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,27 @@ namespace erronka3_1T
         public pantallaAdmin()
         {
             InitializeComponent();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DataTable tabla = langileBurua.bezeroak_ikusi();
+
+            dataGridView1.DataSource = tabla;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            DataTable tabla = langileBurua.langileak_ikusi();
+
+            dataGridView1.DataSource = tabla;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string id = textBox10.Text; admin.langileak_ezabatu(id);
+
+            textBox10.Clear();
         }
     }
 }

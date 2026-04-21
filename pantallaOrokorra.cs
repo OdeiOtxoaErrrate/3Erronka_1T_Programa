@@ -1,4 +1,5 @@
-﻿using System;
+﻿using erronka;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,20 @@ namespace erronka3_1T
         public pantallaOrokorra()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string id = zita_id.Text; langileOrokorra.zita_eguneratu(id);
+
+            zita_id.Clear();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DataTable tabla = langileOrokorra.zitak_ikusi();
+
+            dataGridView1.DataSource = tabla;
         }
     }
 }

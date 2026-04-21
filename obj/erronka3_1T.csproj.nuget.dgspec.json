@@ -45,6 +45,20 @@
       "frameworks": {
         "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
+          "dependencies": {
+            "FluentFTP": {
+              "target": "Package",
+              "version": "[54.1.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.6.0, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2026.2.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
