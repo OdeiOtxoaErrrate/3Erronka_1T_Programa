@@ -1,16 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vVH6SCcP6vI=",
+  "dgSpecHash": "/kTRcS6Q9Ow=",
   "success": true,
   "projectFilePath": "C:\\Users\\Ander\\OneDrive - Goierri Eskola\\Escritorio\\goierri\\erronka3\\erronka3_1T\\erronka3_1T\\erronka3_1T.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Ander\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
-    "C:\\Users\\Ander\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",
-    "C:\\Users\\Ander\\.nuget\\packages\\k4os.compression.lz4\\1.3.8\\k4os.compression.lz4.1.3.8.nupkg.sha512",
-    "C:\\Users\\Ander\\.nuget\\packages\\k4os.compression.lz4.streams\\1.3.8\\k4os.compression.lz4.streams.1.3.8.nupkg.sha512",
-    "C:\\Users\\Ander\\.nuget\\packages\\k4os.hash.xxhash\\1.0.8\\k4os.hash.xxhash.1.0.8.nupkg.sha512",
-    "C:\\Users\\Ander\\.nuget\\packages\\mysql.data\\9.6.0\\mysql.data.9.6.0.nupkg.sha512",
-    "C:\\Users\\Ander\\.nuget\\packages\\zstdsharp.port\\0.8.6\\zstdsharp.port.0.8.6.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
