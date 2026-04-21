@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\Erronka1T_programa\\erronka3_1T.csproj": {}
+    "C:\\Users\\manex\\OneDrive - Goierri Eskola\\Escritorio\\programa3T\\erronka3_1T.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\Erronka1T_programa\\erronka3_1T.csproj": {
+    "C:\\Users\\manex\\OneDrive - Goierri Eskola\\Escritorio\\programa3T\\erronka3_1T.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\Erronka1T_programa\\erronka3_1T.csproj",
+        "projectUniqueName": "C:\\Users\\manex\\OneDrive - Goierri Eskola\\Escritorio\\programa3T\\erronka3_1T.csproj",
         "projectName": "erronka3_1T",
-        "projectPath": "C:\\xampp\\htdocs\\Erronka1T_programa\\erronka3_1T.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\Erronka1T_programa\\obj\\",
+        "projectPath": "C:\\Users\\manex\\OneDrive - Goierri Eskola\\Escritorio\\programa3T\\erronka3_1T.csproj",
+        "packagesPath": "C:\\Users\\manex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manex\\OneDrive - Goierri Eskola\\Escritorio\\programa3T\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +29,7 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net10.0-windows": {
-            "framework": "net10.0-windows7.0",
+          "net10.0-windows7.0": {
             "targetAlias": "net10.0-windows",
             "projectReferences": {}
           }
@@ -41,11 +44,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
-        "net10.0-windows": {
-          "framework": "net10.0-windows7.0",
+        "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
           "dependencies": {
             "FluentFTP": {
@@ -80,7 +82,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
