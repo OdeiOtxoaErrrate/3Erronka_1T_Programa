@@ -279,6 +279,35 @@ namespace erronka3_1T
             }
 
         }
+        public static void bezero_datua_aldatu(string id, string eremua, string datuBerria)
+        {
+            string connectionString = "Server=192.168.115.167;Database=hirugarrenerronka;Uid=erronka3;Pwd=1MG32025;";
+            string query = $"UPDATE bezeroak SET {eremua} = @datuBerria WHERE id = @id";
+            using (MySqlConnection conexion = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conexion.Open();
+                    MySqlCommand comando = new MySqlCommand(query, conexion);
+                    comando.Parameters.AddWithValue("@datuBerria", datuBerria);
+                    comando.Parameters.AddWithValue("@id", id);
+                    int filasAfectadas = comando.ExecuteNonQuery();
+                    if (filasAfectadas > 0)
+                    {
+                        MessageBox.Show("Bezeroaren datua behar bezala aldatu da.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Ez da aurkitu ID hori duen erregistrorik.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Errorea bezeroaren datua aldatzean: " + ex.Message);
+                }
+            }
+        }
+
     }
 
 }
