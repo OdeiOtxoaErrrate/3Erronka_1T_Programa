@@ -43,5 +43,11 @@ namespace erronka3_1T
             langileBurua.bezeroak_ezabatu(id);
             textBox9.Clear();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            DataTable tabla = langileOrokorra.zitak_ikusi();
+            dataGridView1.DataSource = tabla;
+        }
     }
 }

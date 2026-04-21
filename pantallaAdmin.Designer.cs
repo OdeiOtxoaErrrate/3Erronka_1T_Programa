@@ -125,6 +125,7 @@
             button9.TabIndex = 112;
             button9.Text = "Zitak ikusi";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // groupBox2
             // 
