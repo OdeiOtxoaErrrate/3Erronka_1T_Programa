@@ -55,5 +55,27 @@ namespace erronka3_1T
             DataTable tabla = langileBurua.hornitzaile_eta_langilearen_erlazioak_ikusi();
             dataGridView1.DataSource = tabla;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string izena = b_izena.Text;
+            string abizena = b_abizena.Text;
+            string email = b_email.Text;
+            string NAN = b_nan.Text;
+            string telefonoa = b_telefonoa.Text;
+            string helbidea = b_helbidea.Text;
+            string pasahitza = b_pasahitza.Text;
+            string suskripzioa = b_suskripzioa.Text;
+
+            langileBurua.bezeroak_gehitu(izena, abizena, pasahitza, email, NAN, telefonoa, helbidea, suskripzioa);
+            b_izena.Clear();
+            b_abizena.Clear();
+            b_email.Clear();
+            b_nan.Clear();
+            b_telefonoa.Clear();
+            b_helbidea.Clear();
+            b_pasahitza.Clear();
+            b_suskripzioa.Clear();
+        }
     }
 }

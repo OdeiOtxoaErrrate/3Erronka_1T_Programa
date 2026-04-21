@@ -468,6 +468,7 @@
             button1.TabIndex = 97;
             button1.Text = "Gehitu bezeroa";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // b_suskripzioa
             // 
