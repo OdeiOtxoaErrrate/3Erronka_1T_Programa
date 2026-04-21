@@ -214,6 +214,71 @@ namespace erronka3_1T
             }
 
         }
+        public static void bezeroak_gehitu(string izena, string abizena, string pasahitza, string email, string NAN, string telefonoa, string helbidea, string suskripzioa)
+
+        {
+
+            string connectionString = "Server=192.168.115.167;Database=hirugarrenerronka;Uid=erronka3;Pwd=1MG32025;";
+
+            string query = "INSERT INTO bezeroak (izena, abizena, pasahitza, email, NAN, telefonoa, helbidea, suskripzioa) VALUES (@izena, @abizena, @pasahitza, @email, @NAN, @telefonoa, @helbidea, @suskripzioa)";
+
+            using (MySqlConnection conexion = new MySqlConnection(connectionString))
+
+            {
+
+                try
+                {
+
+                    conexion.Open();
+
+                    MySqlCommand comando = new MySqlCommand(query, conexion);
+
+                    comando.Parameters.AddWithValue("@izena", izena);
+
+                    comando.Parameters.AddWithValue("@abizena", abizena);
+
+                    comando.Parameters.AddWithValue("@pasahitza", pasahitza);
+
+                    comando.Parameters.AddWithValue("@email", email);
+
+                    comando.Parameters.AddWithValue("@NAN", NAN);
+
+                    comando.Parameters.AddWithValue("@telefonoa", telefonoa);
+
+                    comando.Parameters.AddWithValue("@helbidea", helbidea);
+
+                    comando.Parameters.AddWithValue("@suskripzioa", suskripzioa);
+
+                    int filasAfectadas = comando.ExecuteNonQuery();
+
+                    if (filasAfectadas > 0)
+
+                    {
+
+                        MessageBox.Show("Bezeroa behar bezala gehitu da.");
+
+                    }
+
+                    else
+                    {
+
+                        MessageBox.Show("Errorea bezeroa gehitzean.");
+
+                    }
+
+                }
+
+                catch (Exception ex)
+
+                {
+
+                    MessageBox.Show("Errorea bezeroa gehitzean: " + ex.Message);
+
+                }
+
+            }
+
+        }
     }
 
 }
