@@ -138,6 +138,7 @@
             button7.TabIndex = 77;
             button7.Text = "Aldatu";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // label18
             // 
@@ -187,6 +188,7 @@
             b_ezab_btn.TabIndex = 99;
             b_ezab_btn.Text = "Bezeroa ezabatu";
             b_ezab_btn.UseVisualStyleBackColor = true;
+            b_ezab_btn.Click += b_ezab_btn_Click;
             // 
             // bezero_id
             // 

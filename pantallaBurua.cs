@@ -36,5 +36,35 @@ namespace erronka3_1T
 
             dataGridView1.DataSource = tabla;
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            DataTable tabla = langileBurua.hornitzaile_eta_langilearen_erlazioak_ikusi();
+
+            dataGridView1.DataSource = tabla;
+        }
+
+        private void b_ezab_btn_Click(object sender, EventArgs e)
+        {
+            string id = bezero_id.Text; langileBurua.bezeroak_ezabatu(id);
+
+            bezero_id.Clear();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            string id = textBox9.Text;
+
+            string eremua = izena.Text;
+
+            string datuBerria = textBox18.Text;
+
+
+            langileBurua.bezero_datua_aldatu(id, eremua, datuBerria);
+
+            textBox9.Clear();
+
+            textBox18.Clear();
+        }
     }
 }
